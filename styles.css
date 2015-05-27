@@ -1,0 +1,121 @@
+/* standard elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* aligns header and footer nicely on the page */
+img { vertical-align: bottom }
+
+/* background image and color of page and most fonts */
+body {
+	background: #4e4884 url(http://demoviralmailerbasic.phpsitescripts.com/images/bg.jpg);
+	color: #4e4884;
+	font: normal 12px "Tahoma",sans-serif;
+	margin: 0;
+}
+
+/* most navigation link colors and fonts */
+a {color: #36C; font: normal 12px "Tahoma",sans-serif;}
+
+/* most navigation link colors and fonts when mouseover */
+a:hover {color: #06F; font: normal 12px "Tahoma",sans-serif;}
+
+/* page heading colors and fonts. color: inherit means if the heading is outside a form table (below), it will inherit the color of the page text.
+	If the heading is INSIDE the form tables, it will instead inherit the color of the form table text */
+div.heading {color: inherit; font-size: 16px; font-weight: bold;}
+
+/* forms table colors - background color and font of main table */
+table.sabrinatable {background:#4e4884;color:#ffffff;}
+
+/* forms table colors - background color and font of darker table rows */
+tr.sabrinatrdark {background:#7c62b9;color:#ffffff;}
+tr.sabrinatrdark tr td {background:#7c62b9;color:#ffffff;}
+
+/* forms table colors - background color and font of lighter table rows */
+tr.sabrinatrlight {background:#9671d1;color:#ffffff;}
+tr.sabrinatrlight tr td {background:#9671d1;color:#ffffff;}
+
+/* forms table colors - link colors and fonts of darker table rows */
+tr.sabrinatrdark a {color:#fdd3dc;}
+
+/* forms table colors - link colors and fonts of darker table rows when mouseover */
+tr.sabrinatrdark a:hover {color:#f1f3a0;}
+
+/* forms table colors - link colors and fonts of lighter table rows */
+tr.sabrinatrlight a {color:#fdd3dc;}
+
+/* forms table colors - link colors and fonts of lighter table rows when mouseover */
+tr.sabrinatrlight a:hover {color:#f1f3a0;}
+
+/* previous/next/numbered links for pages with pagination - colors/appearance */
+
+tr.sabrinatrlight heading {color:#ffffff;}
+
+/* main menu - appearance of home,login,signup,support menu bar under header image */
+#mainmenu {
+	clear: both;
+	width: 960px;
+	height: 30px;
+	padding: 0;
+	background:#000;
+	border-top:1px solid #fff;
+}
+#mainmenu ul {
+	margin: 0;
+	padding: 0px 0px 0px 5px;
+	list-style: none;
+}
+#mainmenu ul li {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+#mainmenu ul li a {
+	float: left;
+	display: block;
+	font-size: 14px;
+	width: 180px;
+	height: 25px;
+	padding: 5px 0 0 0;
+	color: #fff;	
+	text-decoration: none;
+	text-align: center;
+	outline: none;
+}
+#mainmenu ul li a:hover, #mainmenu ul .current  {
+	color: #f23cdf;	
+}
+/* main menu end */
+
+div.pagination {
+	padding: 3px;
+	margin: 3px;
+	width: 800px;
+	overflow: auto;
+}
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #54b8d0;
+	text-decoration: none;
+	color: #000000;
+}
+div.pagination a:hover, div.pagination a:active {
+	border: 1px solid #1a81aa;
+	color: #ffffff;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #1a81aa;	
+	font-weight: bold;
+	background-color: #1a81aa;
+	color: #ffffff;
+	}
+div.pagination span.disabled {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #54b8d0;
+	color: #ffffff;
+	}
