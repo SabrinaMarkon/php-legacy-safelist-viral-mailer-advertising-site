@@ -1,4 +1,4 @@
-Viral Mailer Advertising Website
+Safelist Viral Mailer Advertising Website (legacy 2015)
 
 Basic version viral double optin safelist mailer and advertising website script
 
